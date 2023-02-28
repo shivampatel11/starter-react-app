@@ -1,0 +1,22 @@
+.singlecontainer{
+    margin:20px;
+    background-color: rgb(235, 203, 160);
+    padding:10px
+}
+.singlecontainer h1{
+    background-color: blue;
+    color:white;
+    display:inline-block;
+    padding:0px 7px;
+}
+.viewcontainer{
+    display:flex;
+    align-items: center;
+    gap:20px;
+}
+.viewcontainer h2{
+    flex:1;
+}
+.viewcontainer span{
+    flex:10;
+}

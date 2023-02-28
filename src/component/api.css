@@ -1,0 +1,49 @@
+
+
+.topcontainer{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin:0px 30px;
+    
+}
+.topcontainer h1{
+color: rgb(6, 6, 91);
+font-weight: bolder;
+font-size: 36px;
+}
+
+.topcontainer input{
+    font-size:15px;
+    padding:5px 2px; 
+    border-radius: 40px;
+    border:2px solid black
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    margin:5px 10px;
+  }
+  
+  td, th {
+    border: 1px solid #030000;
+    text-align: center;
+    padding: 4px;
+   
+  }
+  th{
+    background-color: rgb(4, 15, 42);
+    color:white;
+    cursor: pointer;
+  }
+   .tbutton {
+    background-color: blue;
+    color:white;
+    padding:2px;
+    font-size: 11px;
+    margin:1px;
+    width:50px;
+    border-radius:30px;
+  }

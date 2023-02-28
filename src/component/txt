@@ -1,0 +1,18 @@
+ const getsortdata = async () => {
+        if (state && sort == true) {
+                let newd = state.sort((a, b) => {
+                    return b.id - a.id
+                })
+                setState(newd)
+                setSort(false)
+        }else{
+          // getapidata()
+          let newd = state.sort((a, b) => {
+            return a.id - b.id
+        })
+        setState(newd)
+           setSort(true)
+        }
+   }
+
+   <span className="sort" onClick={() => getsortdata()}>{sort == true ? <span>Sort in descending order</span> : <span>sort in ascendind order</span>}</span>

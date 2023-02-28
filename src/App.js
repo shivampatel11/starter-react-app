@@ -1,12 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Routes, Route, } from "react-router-dom";
+import Getdata from './component/api';
+import Singlepost from "./component/Singlepost";
+
 
 function App() {
   return (
-    <div className="App">
-    shivam
-    </div>
-  );
+    <BrowserRouter>
+
+      <Routes>
+        <Route path="/" element={<Getdata />}></Route>
+        <Route path='/view/:id' element={<Singlepost/>}></Route>
+      </Routes>
+      
+    </BrowserRouter>
+  )
 }
 
 export default App;
